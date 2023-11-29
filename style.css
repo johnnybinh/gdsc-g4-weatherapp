@@ -50,22 +50,52 @@ body{
   width: auto;
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 600px;
   
 }
 
 
 
 .screen{
+  padding: 10px;
   background-color: rgb(108, 108, 230, 0.4);
   width: 50%;
+  display: flex;
   border-radius: 10px;
   font-family: roboto;
+  text-align: center;
+  justify-content: first baseline;
+  align-items: center;
+  flex-direction: column;
   
 }
 
+img{
+  width: 150px;
+}
+
+form{
+  width: 200px;
+}
+
+input{
+  height: 30px;
+  width: 170px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(0, 119, 255);
+  cursor: pointer;
+}
 
 .bg{
   background:transparent;
   width:25%;
+}
+
+.A{
+  height: 50px;
+
+}
+.B{
+  height: 50px;
 }
