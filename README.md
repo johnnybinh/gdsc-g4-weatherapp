@@ -15,4 +15,4 @@ A Weather Application built with HTML And CSS, With Backend built using Flask as
 
 ## Images:
 
-![Image ](image-2.png)
+![Image](image-2.png)
