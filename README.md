@@ -11,8 +11,8 @@ A Weather Application built with HTML And CSS, With Backend built using Flask as
 
 [**@HariusNguyen**](https://github.com/johnnybinh/gdsc-g4-weatherapp/commits?author=HariusNguyen "View all commits by HariusNguyen") : Backend
 
-[**@hwHoai**](https://github.com/hwHoai): Prime Minister
+[**@hwHoai**](https://github.com/hwHoai): Minister of foreign relations
 
 ## Images:
 
-![Image](image-2.png)
+![Image ](image-2.png)
