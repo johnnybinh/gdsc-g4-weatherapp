@@ -99,3 +99,7 @@ input{
 .B{
   height: 50px;
 }
+
+#quotes{
+  font-style: italic;
+}
