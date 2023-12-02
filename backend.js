@@ -6,7 +6,7 @@ function logWeather(){
   fetch("https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=metric&appid=" + apiKey).then(response => response.json())
   .then(data => {
     console.log(JSON.stringify(data));
-    var temp = data.main.temp;
+    var temp = data.main.temp - 272.15;
     console.log(temp);
     document.getElementById("pic").src = "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png";
     document.getElementById("cityname").innerHTML = data.name;
