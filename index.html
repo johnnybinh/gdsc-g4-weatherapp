@@ -16,6 +16,101 @@
       <button class="btn" id="btn2"><a href="https://github.com/johnnybinh/gdsc-g4-weatherapp">Github</a></button>
     </div>
     <div class="content">
+
+
+      <div>
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>6-Day Forecast</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+            body {
+              background-color: rgb(255, 255, 255);
+              font-family: Arial, sans-serif;
+            }
+        
+            .forecast-container {
+              display: flex;
+              flex-wrap: wrap;
+              width: 80%;
+            }
+        
+            .forecast {
+              left: 0px;
+              right: 0px;
+              margin-left:50px;
+              width: 65%;
+              height: 115px;
+              padding: 10px;
+              margin-bottom:5px;
+              background-color: rgb(72, 190, 211);
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+        
+            .day {
+
+              font-weight: bold;
+              margin-bottom: 10px;
+            }
+        
+            .temperature {
+              margin-top: 7px;
+            }
+        
+            .weather-icon {
+              width: 60px;
+              height: 60px;
+              margin-bottom: 5px;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="forecast-container">
+            <div class="forecast">
+              <div class="day">
+              <div id="day0"></div></div>
+              <img src="assets/clear.png" alt="" class="weather-icon">
+              <div class="temperature">
+              <div id="temperature0"><span>...&#8451;</span></div></div>
+            </div>
+            <div class="forecast">
+              <div class="day">
+              <div id="day1"></div></div>
+              <img src="assets/cloudy.png" alt="" class="weather-icon">
+              <div class="temperature">
+              <div id="temperature1"><span>...&#8451;</span></div></div>
+            </div>
+            <div class="forecast">
+              <div class="day">
+              <div id="day2"></div></div>
+              <img src="assets/rainy.png" alt="" class="weather-icon">
+              <div class="temperature">
+              <div id="temperature2"><span>...&#8451;</span></div></div>
+            </div>
+            <div class="forecast">
+              <div class="day">
+              <div id="day3"></div></div>
+              <img src="assets/snow.png" alt="" class="weather-icon">
+              <div class="temperature">
+              <div id="temperature3"><span>...&#8451;</span></div></div>
+            </div>
+            <div class="forecast">
+              <div class="day">
+              <div id="day4"></div></div>
+              <img src="assets/cloudy.png" alt="" class="weather-icon">
+              <div class="temperature">
+              <div id="temperature4"><span>...&#8451;</span></div></div>
+            </div>
+          </div>
+        </body>
+        </html>
+    </div>
+
+
       <div class="bg">
       </div>
       <div class="screen">
@@ -23,10 +118,10 @@
             <input id="searchCity" type="text" placeholder="Please enter city 🔍">
         </div>
         <div class="B">
-          <h1 id="cityname"></h1>
-          <img id="pic" src="" alt="">
+          <h1 id="cityname">Weather App</h1>
+          <img id="pic" src="assets/weather-news.png" alt="">
           <h2 id="temp"></h2> 
-          <h2 id="description"></h2>
+          <h2 id="description"> Good Luck To you!</h2>
           <h3 id="quotes"></h3>
         </div>
       </div>
@@ -34,4 +129,5 @@
     </div>
   </div>
 </body>
+<script src="forecast.js"></script>
 </html>
