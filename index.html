@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="module" src="backend.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
@@ -19,16 +20,14 @@
       </div>
       <div class="screen">
         <div class="A">
-          <form action="">
-            <input type="text" placeholder="Please enter city 🔍">
-            
-          </form>
+            <input id="searchCity" type="text" placeholder="Please enter city 🔍">
         </div>
         <div class="B">
-          <h1>Ho Chi Minh</h1>
-          <img src="assets/snow.png" alt="">
-          <h2>Current Temp: -20°C</h2> 
-          <h2>place holder text</h2>
+          <h1 id="cityname"></h1>
+          <img id="pic" src="" alt="">
+          <h2 id="temp"></h2> 
+          <h2 id="description"></h2>
+          <h3 id="quotes"></h3>
         </div>
       </div>
       <div class="bg"></div>
