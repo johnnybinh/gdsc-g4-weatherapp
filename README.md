@@ -4,7 +4,7 @@
 
 A Weather Application built with HTML And CSS, With Backend built with Javascript. This application can get real time weather infomations of any locations, and weather in-day and weelky forecast.
 
-![Try Now](https://johnnybinh.github.io/gdsc-g4-weatherapp/)
+[Try Now](https://johnnybinh.github.io/gdsc-g4-weatherapp/)
 
 
 
